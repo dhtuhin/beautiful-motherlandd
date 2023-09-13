@@ -1,0 +1,116 @@
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main{
+   max-width: 1140px;
+   margin: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #f6f2f0;
+}
+header .logo{
+    width: 15%;
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav li{
+    list-style: none;
+    font-size: px;
+    font-weight: 500;
+}
+ .nav li a{
+    text-decoration: none;
+    color:#ed7b1f;
+    padding: 8px 10px;
+}
+.nav li a:hover{
+    background-color:#f1e0d2  ;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+.nav-icon{
+    width: 25%;
+}
+.nav-icon ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+.nav-icon ul a{
+    color:#ed7b1f;
+    padding: 8px 10px;
+}
+.nav-icon a:hover{
+    background-color:#f1e0d2 ;
+    border-radius: 8px;
+}
+
+
+.imgg{
+    border-radius: 20px;
+}
+.area{
+    background-color: #f1e0d2;
+    height: 400px;
+    width: auto;
+}
+
+.travel-area-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.travel-area h1{
+    text-align: center;
+    font-size:30px;
+    text-transform: uppercase;
+    color:#ed7b1f;
+}
+
+.area-name{
+    padding: 0 20px;
+}
+
+.area-name h3{
+    color: #d28444;
+    margin: 0;
+    padding: 2px 0;
+    font-size: 20px;
+
+}
+
+.area-name h5{
+    color: #766659;
+    margin: 0;
+    padding: 2px 0;
+    font-size: 17px;
+}
+.details a{
+    text-decoration: none;
+    color: rgb(36, 39, 41);
+    margin-top: 10px;
+  background-color: #ed7b1f;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.details a:hover{
+    background-color: #e98c40 ;
+}
+.travel-area-list01{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
